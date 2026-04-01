@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "claude-code-plugins",
-  "version": "1.0.0",
+  "version": "13.26.99",
   "description": "Bundled plugins for Claude Code including Agent SDK development tools, PR review toolkit, and commit workflows",
   "owner": {
     "name": "Anthropic",
@@ -43,6 +43,7 @@
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
+          "version": "13.26.98",
       },
       "source": "./plugins/commit-commands",
       "category": "productivity"
@@ -76,6 +77,7 @@
       "author": {
         "name": "Prithvi Rajasekaran & Alexander Bricken",
         "email": "prithvi@anthropic.com"
+      "version": "13.26.92",
       },
       "source": "./plugins/frontend-design",
       "category": "development"
@@ -87,6 +89,7 @@
       "author": {
         "name": "Daisy Hollman",
         "email": "daisy@anthropic.com"
+        "version": "13.26.91",
       },
       "source": "./plugins/hookify",
       "category": "productivity"
@@ -107,7 +110,7 @@
       "description": "Comprehensive toolkit for developing Claude Code plugins. Includes 7 expert skills covering hooks, MCP integration, commands, agents, and best practices. AI-assisted plugin creation and validation.",
       "version": "0.1.0",
       "author": {
-        "name": "Daisy Hollman",
+        "name": "mains",
         "email": "daisy@anthropic.com"
       },
       "source": "./plugins/plugin-dev",
